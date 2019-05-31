@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	
+	<definition name="dashboard" template="/WEB-INF/tiles/dashboardlayout.jsp">
+		<put-attribute name="title" value="OES" />
+		<put-attribute name="menu" value="/WEB-INF/tiles/usermenu.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/userbody.jsp" />
+	</definition>
+	
+	<definition name="baseLayout" template="/WEB-INF/tiles/adminlayout.jsp">
+		<put-attribute name="title" value="OES" />
+		<put-attribute name="menu" value="/WEB-INF/tiles/usermenu.jsp" />
+		<put-attribute name="adminheader" value="/WEB-INF/tiles/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/dashboardlayout.jsp" />
+	</definition>
+	
+	<definition name="adminheader" template="/WEB-INF/tiles/header.jsp">   
+		<put-attribute name="title" value="OES" />
+	</definition>
+	
+	<!-- -->
+	<definition name="login" extends="dashboard">
+		<put-attribute name="title" value="CMS" />
+		<put-attribute name="menu" value="" />
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+	
+	<definition name="home" extends="dashboard">
+		<put-attribute name="title" value="OES" />
+		<put-attribute name="menu" value="" />
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+	
+	<definition name="genericerror" extends="dashboard">
+		<put-attribute name="title" value="OES" />
+		<put-attribute name="menu" value="" />
+		<put-attribute name="body" value="/WEB-INF/jsp/genericerror.jsp" />
+	</definition>
+	
+</tiles-definitions>

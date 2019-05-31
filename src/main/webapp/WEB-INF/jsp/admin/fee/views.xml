@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="adminfeemenu" extends="baseLayout">
+		<put-attribute name="title" value="Fee Dashboard" />
+		<!-- <put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp"/> -->
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/fee/adminfeemenu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="inprogresschequelist" extends="baseLayout">
+		<put-attribute name="title" value="CREATE EDIT VIEW FEE CATEGORY" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/fee/inprogresschequelist.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="createeditviewfeecategory" extends="baseLayout">
+		<put-attribute name="title" value="CREATE EDIT VIEW FEE CATEGORY" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/fee/createeditviewfeecategory.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="viewallocatedfee" extends="baseLayout">
+		<put-attribute name="title" value="FEE ALLOTED TO STUDENT" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/fee/viewallocatedfee.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="feepaypage" extends="baseLayout">
+		<put-attribute name="title" value="FILL FEE PAY DATA" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/fee/feepaypage.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="viewsavefeedetail" extends="baseLayout">
+		<put-attribute name="title" value="FILL FEE PAY DATA" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/fee/viewsavefeedetail.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="feesubmissiondetails" extends="baseLayout">
+		<put-attribute name="title" value="FEE SUBMISSION RECORD" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/fee/feesubmissiondetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="edit-fee-common-category" extends="baseLayout">
+		<put-attribute name="title" value="Fee Common Category" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/fee/edit-fee-common-category.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="searchstudentsfeedetails" extends="baseLayout">
+		<put-attribute name="title" value="CHECK FEE PAYMENT STATUS" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/fee/search-students-fee-details.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="feeChecqueList" extends="baseLayout">
+		<put-attribute name="title" value="CHECK FEE PAYMENT STATUS" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/fee/feeChecqueList.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="transport" extends="baseLayout">
+		<put-attribute name="title" value="TRANSPORT" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/fee/transport.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="vieweditList" extends="baseLayout">
+		<put-attribute name="title" value="Discounted Student" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/fee/listalloatededitedfee.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	
+</tiles-definitions>

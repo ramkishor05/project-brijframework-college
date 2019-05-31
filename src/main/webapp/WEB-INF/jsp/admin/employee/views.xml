@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="employee" extends="baseLayout">
+		<put-attribute name="title" value="EMPLOYEE" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/employee.jsp" />
+	</definition>
+
+	<definition name="employee-registration" extends="baseLayout">
+		<put-attribute name="title" value="EMPLOYEE" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/employeeregistration.jsp" />
+	</definition>
+
+	<definition name="employeedetails" extends="baseLayout">
+		<put-attribute name="title" value="SEARCH EMPLOYEE" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/employeedetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="showemployeedetails" extends="baseLayout">
+		<put-attribute name="title" value="EMPLOYEE PROFILE" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/showemployeedetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="editemployeedetails" extends="baseLayout">
+		<put-attribute name="title" value="EDIT EMPLOYEE DETAILS" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/editemployeedetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="changeemppasswordpage" extends="baseLayout">
+		<put-attribute name="title" value="PASSWORD CHANGE" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/changeemppassword.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="assignclasses" extends="baseLayout">
+		<put-attribute name="title" value="ASSIGN CLASS" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/assign-classes.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+<definition name="createsalary" extends="baseLayout">
+		<put-attribute name="title" value="CREATE SALARY" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/createsalary.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="paysalary" extends="baseLayout">
+		<put-attribute name="title" value="PAY SALARY" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/paysalary.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="salarychequelist" extends="baseLayout">
+		<put-attribute name="title" value="Check Salary Status" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/salarychequelist.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="salarymenu" extends="baseLayout">
+		<put-attribute name="title" value="Check Salary Status" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/salarymenu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="viewmonthwisesalarydetails" extends="baseLayout">
+		<put-attribute name="title" value="Paid Salary Details" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/viewmonthwisesalarydetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="payadvance" extends="baseLayout">
+		<put-attribute name="title" value="Pay Advance" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/payadvance.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="allotsalary" extends="baseLayout">
+		<put-attribute name="title" value="Allot Salary" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/allotsalary.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="viewmonthlypaidsalary" extends="baseLayout">
+		<put-attribute name="title" value="Paid Salary Details" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/viewmonthlypaidsalary.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="employeeDocuments" extends="baseLayout">
+		<put-attribute name="title" value="Employee Documents" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/employee/employeeDocuments.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+</tiles-definitions>

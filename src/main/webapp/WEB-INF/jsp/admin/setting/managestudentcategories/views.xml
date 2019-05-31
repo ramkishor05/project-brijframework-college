@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="managestudentcategories" extends="baseLayout">
+		<put-attribute name="title" value="CONFIGURATION" />
+		
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/setting/managestudentcategories/managestudentcategories.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+<definition name="createstudentcategories" extends="baseLayout">
+		<put-attribute name="title" value="CONFIGURATION" />
+		
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/setting/managestudentcategories/createstudentcategories.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	
+	<definition name="updatestudentcategories" extends="baseLayout">
+		<put-attribute name="title" value="CONFIGURATION" />
+		
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/setting/managestudentcategories/updatestudentcategories.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	
+	<definition name="newstudentcategories" extends="baseLayout">
+		<put-attribute name="title" value="CONFIGURATION" />
+		
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/setting/managestudentcategories/newcategories.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	
+	<definition name="deletestudentcategories" extends="baseLayout">
+		<put-attribute name="title" value="CONFIGURATION" />
+		
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/setting/managestudentcategories/deletestudentcategories.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+</tiles-definitions>

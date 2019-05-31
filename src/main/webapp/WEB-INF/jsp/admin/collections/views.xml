@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="collectionsmenu" extends="baseLayout">
+		<put-attribute name="title" value="Manage Collections" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/collections-menu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="collectionsreportmenu" extends="baseLayout">
+		<put-attribute name="title" value="view Collections" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/collections-report-menu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="showoverallcollections" extends="baseLayout">
+		<put-attribute name="title" value="View Overall Collections" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/show-overall-collections.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="showtodayscollections" extends="baseLayout">
+		<put-attribute name="title" value="View Today's Collections" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/show-todays-collections.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="showdatewisecollections" extends="baseLayout">
+		<put-attribute name="title" value="View Date Wise Collections" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/show-datewise-collections.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="showyearlycollections" extends="baseLayout">
+		<put-attribute name="title" value="Show Yearly Collection Reports" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/show-yearly-collections.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="overalluniform" extends="baseLayout">
+		<put-attribute name="title" value="Show Uniform Collection Reports" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/overall-uniform-collections.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+
+	<definition name="availablecollectionsmenu" extends="baseLayout">
+		<put-attribute name="title" value="Available Collections Menu" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/available-collections-menu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="monthlyavailablecollectionsreport"
+		extends="baseLayout">
+		<put-attribute name="title"
+			value="Monthly Available Collections Report" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/monthly-available-collections-report.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="yearlyavailablecollectionsreport" extends="baseLayout">
+		<put-attribute name="title"
+			value="Yearly Available Collections Report" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/yearly-available-collections-report.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="todayavailablecollectionexpense" extends="baseLayout">
+		<put-attribute name="title" value="Available Collections Menu" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/todayavailablecollectionexpense.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="overallbook" extends="baseLayout">
+		<put-attribute name="title" value="Overall Books Collections" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/show-overall-books.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="all-fee-submission-report" extends="baseLayout">
+		<put-attribute name="title" value="Overall Fee Submission" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/all-fee-submission-records.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="todayCollectionHome" extends="baseLayout">
+		<put-attribute name="title" value="Overall Fee Submission" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/today-collection-expensive.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+</tiles-definitions>

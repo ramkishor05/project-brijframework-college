@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+<definition name="dressmenu" extends="baseLayout">
+		<put-attribute name="title" value="Dress Menu" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/dress/dressmenu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="managedress" extends="baseLayout">
+		<put-attribute name="title" value="Dress Menu" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/dress/managedress.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="allotdress" extends="baseLayout">
+		<put-attribute name="title" value="Dress Menu" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/dress/dresspayment.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="viewsolddress" extends="baseLayout">
+		<put-attribute name="title" value="Dress Menu" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/dress/viewsolddress.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	</tiles-definitions>

@@ -1,0 +1,41 @@
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="monthlyexammenupage" extends="baseLayout">
+		<put-attribute name="title" value="MONTHLY EXAM MENU" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/examreport/monthlyexam/monthlyexammenupage.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="assignmonthlymarkspage" extends="baseLayout">
+		<put-attribute name="title" value="CERATE MONTHLY EXAM REPORT" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/examreport/monthlyexam/assignmonthlymarks.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="viewmonthlysubjectmarks" extends="baseLayout">
+		<put-attribute name="title" value="VIEW MONTH SUBJECT MARKS" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/examreport/monthlyexam/viewmonthlysubjectmarks.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="editmonthlyexamsubjectmarks" extends="baseLayout">
+		<put-attribute name="title" value="EDIT SUBJECT MARKS" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/examreport/monthlyexam/editmonthlyexamsubjectmarks.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="viewmonthlyexamreport" extends="baseLayout">
+		<put-attribute name="title" value="VIEW MONTHLY REPORT" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/examreport/monthlyexam/viewmonthlyexamreport.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+</tiles-definitions>
+	

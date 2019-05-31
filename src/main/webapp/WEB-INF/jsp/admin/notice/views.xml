@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="noticemenu" extends="baseLayout">
+		<put-attribute name="title" value="Notice-Menu" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/notice/notice-menu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="create-notice" extends="baseLayout">
+		<put-attribute name="title" value="Create-Notice" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/notice/create-notice.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="show-notice" extends="baseLayout">
+		<put-attribute name="title" value="Show-Notice" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/notice/show-notice.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="edit-notice" extends="baseLayout">
+		<put-attribute name="title" value="Show-Notice" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/notice/edit-notice.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="view-notice" extends="baseLayout">
+		<put-attribute name="title" value="Show-Notice" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/notice/view-notice.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+</tiles-definitions>

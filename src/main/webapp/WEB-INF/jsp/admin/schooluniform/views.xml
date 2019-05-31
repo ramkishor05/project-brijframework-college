@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+<definition name="purchaseuniform" extends="baseLayout">
+		<put-attribute name="title" value="Purchased Uniform Details" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/schooluniform/purchaseuniform.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="uniformmenu" extends="baseLayout">
+		<put-attribute name="title" value="Uniform Menu" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/schooluniform/uniformmenu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="selluniform" extends="baseLayout">
+		<put-attribute name="title" value="Sell Uniform" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/schooluniform/selluniform.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="viewuniformstock" extends="baseLayout">
+		<put-attribute name="title" value="View Uniform Stock" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/schooluniform/viewuniformstock.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="solduniformdetails" extends="baseLayout">
+		<put-attribute name="title" value="View Sold Uniform details" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/schooluniform/solduniformdetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="payuniformdues" extends="baseLayout">
+		<put-attribute name="title" value="Pay Dues of Uniform" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/schooluniform/payuniformdues.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="uniformpurchase" extends="baseLayout">
+		<put-attribute name="title" value="Purchase Uniform" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/schooluniform/uniformpurchase.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+		<definition name="purchasepayment" extends="baseLayout">
+		<put-attribute name="title" value="Payment of Purchased Uniform" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/schooluniform/purchasepayment.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="purchaseduniformdetails" extends="baseLayout">
+		<put-attribute name="title" value="Payment of Purchased Uniform" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/schooluniform/purchaseduniformdetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="checkuniformsold" extends="baseLayout">
+		<put-attribute name="title" value="Check Sold Uniforms" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/schooluniform/checkuniformsold.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="checkuniformpurchased" extends="baseLayout">
+		<put-attribute name="title" value="Check Purchased Uniforms" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/schooluniform/checkuniformpurchased.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="classwisesolddetails" extends="baseLayout">
+		<put-attribute name="title" value="Check Sold Uniforms" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/schooluniform/classwisesolddetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	</tiles-definitions>

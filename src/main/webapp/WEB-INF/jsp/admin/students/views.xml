@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="studentsmanage" extends="baseLayout">
+		<put-attribute name="title" value="STUDENTS MANAGEMENT" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/studentsmanage.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="student-overview" extends="baseLayout">
+		<put-attribute name="title" value="Student Overview" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/student-overview.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="studentsadmission" extends="baseLayout">
+		<put-attribute name="title" value="Student Admission" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/studentsadmission.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="viewstudentdetails" extends="baseLayout">
+		<put-attribute name="title" value="STUDENT DETAIL" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/studentdetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="editstudentdetails" extends="baseLayout">
+		<put-attribute name="title" value="STUDENT DETAIL" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/editstudentdetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="cancelledstudents" extends="baseLayout">
+		<put-attribute name="title" value="STUDENT DETAILS" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/cancelledstudents.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="showstudentdetails" extends="baseLayout">
+		<put-attribute name="title" value="VIEW STUDENT DETAIL" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/showstudentdetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="sms" extends="baseLayout">
+		<put-attribute name="title" value="SMS" />
+		<put-attribute name="body" value="/WEB-INF/jsp/sendSMS.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="viewlogindetails" extends="baseLayout">
+		<put-attribute name="title" value="STUDENT DETAIL" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/viewlogindetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="generatetc" extends="baseLayout">
+		<put-attribute name="title" value="STUDENT DETAIL" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/tcpage.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="gatepass" extends="baseLayout">
+		<put-attribute name="title" value="Generate Gate Pass" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/gatepass.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="checktodaygatepass" extends="baseLayout">
+		<put-attribute name="title" value="Gate Pass Details" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/checktodaygatepass.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="gatepassmenu" extends="baseLayout">
+		<put-attribute name="title" value="Gate Pass Details" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/gatepassmenu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="studentnewadmission" extends="baseLayout">
+		<put-attribute name="title" value="Admission Form" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/studentnewadmission.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="applicationdetails" extends="baseLayout">
+		<put-attribute name="title" value="Admission Form" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/applicationdetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="generatetc" extends="baseLayout">
+		<put-attribute name="title" value="TC" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/generatetc.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="studentdocuments" extends="baseLayout">
+		<put-attribute name="title" value="Student Documents" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/studentdocuments.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="cancelledlist" extends="baseLayout">
+		<put-attribute name="title" value="Cancelled Registration" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/cancellist.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="transferredlist" extends="baseLayout">
+		<put-attribute name="title" value="Transferred Students" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/transferlist.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="registrationmenu" extends="baseLayout">
+		<put-attribute name="title" value="Registration Menu" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/registrationmenu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="studentperforma" extends="baseLayout">
+		<put-attribute name="title" value="Student Info" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/studentperforma.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="generatetcnew" extends="baseLayout">
+		<put-attribute name="title" value="TC" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/newTc.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+
+
+	</definition>
+	<definition name="characterCertificate" extends="baseLayout">
+		<put-attribute name="title" value="Character Certificate Details" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/characterCertificate.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	
+	<definition name="generateCc" extends="baseLayout">
+		<put-attribute name="title" value="Generate Certificate" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/generateCc.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+	<definition name="viewCharacter" extends="baseLayout">
+		<put-attribute name="title" value="Details" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/viewCharacter.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	
+	<definition name="searchCharacter" extends="baseLayout">
+		<put-attribute name="title" value="Search" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/students/searchCharacter.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+</tiles-definitions>

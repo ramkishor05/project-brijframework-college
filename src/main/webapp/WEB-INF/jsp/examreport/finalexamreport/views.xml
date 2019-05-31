@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="finalexammenupage" extends="baseLayout">
+		<put-attribute name="title" value="ANNUAL EXAM MENU" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/examreport/finalexamreport/finalexammenupage.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="assignmarkspage" extends="baseLayout">
+		<put-attribute name="title" value="CREATE ANNUAL REPORT" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/examreport/finalexamreport/assignmarkspage.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="viewstudentreportcard" extends="baseLayout">
+		<put-attribute name="title" value="VIEW ANNUAL REPORT" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/examreport/finalexamreport/viewstudentreportcard.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+</tiles-definitions>
+	

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="studenthome" extends="baseLayout">
+		<put-attribute name="title" value="Student" />
+		<!-- <put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp"/> -->
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/student/studenthome.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="attendancereport" extends="baseLayout">
+		<put-attribute name="title" value="Monthly Attendance Report" />
+		<!-- <put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp"/> -->
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/student/attendancereport.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="mymonthlyexamreport" extends="baseLayout">
+		<put-attribute name="title" value="Monthly Test Report" />
+		<!-- <put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp"/> -->
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/student/mymonthlyexamreport.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="myreportcard" extends="baseLayout">
+		<put-attribute name="title" value="Report Card" />
+		<!-- <put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp"/> -->
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/student/myreportcard.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	</tiles-definitions>

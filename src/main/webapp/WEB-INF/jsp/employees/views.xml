@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="employeehome" extends="baseLayout">
+		<put-attribute name="title" value="EMPLOYEE HOME" />
+		<!-- <put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp"/> -->
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/employees/employeehome.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="employeemyattendancereport" extends="baseLayout">
+		<put-attribute name="title" value="EMPLOYEE ATTENDANCE REPORT" />
+		<put-attribute name="menu"
+			value="/WEB-INF/jsp/admin/attendance/sidebar.jsp" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/employees/employeemyattendancereport.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="studentattendancemenu" extends="baseLayout">
+		<put-attribute name="title" value="STUDENT ATTENDANCE MENU" />
+		<put-attribute name="menu"
+			value="/WEB-INF/jsp/admin/attendance/sidebar.jsp" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/attendance/studentattendance/student-attendance-menu.jsp" />
+	</definition>
+
+	<definition name="employeestudentattendanceregister" extends="baseLayout">
+		<put-attribute name="title" value="STUDENT ATTENDANCE REGISTER" />
+		<put-attribute name="menu"
+			value="/WEB-INF/jsp/admin/attendance/sidebar.jsp" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/employees/studentattendance/student-attendance-register.jsp" />
+	</definition>
+
+	<definition name="studentsattendancereport" extends="baseLayout">
+		<put-attribute name="title" value="STUDENT ATTENDANCE REPORT" />
+		<put-attribute name="menu"
+			value="/WEB-INF/jsp/admin/attendance/sidebar.jsp" />
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/attendance/studentattendance/students-attendance-report.jsp" />
+	</definition>
+</tiles-definitions>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/util 
+		http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+	<!--  <bean id="registrationPDF" class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+		p:url="classpath:registration.jrxml" p:reportDataKey="datasource" />
+		
+	<bean id="classWiseExcel" class="org.springframework.web.servlet.view.jasperreports.JasperReportsXlsView" 
+		p:url="classpath:ClassWiseExcel.jrxml" p:reportDataKey="datasource" />
+		
+	<bean id="student-profile" class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+		p:url="classpath:profile.jrxml" p:reportDataKey="datasource" />
+		
+	<bean id="maharanatc" class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+		p:url="classpath:maharanapratapLeavingForm2.jrxml" p:reportDataKey="datasource" />
+		
+	<bean id="newStudentTc" class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+		p:url="classpath:Nida-pdf2.jrxml" p:reportDataKey="datasource" />
+		
+	<bean id="student-data" class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+		p:url="classpath:studentAdmissionFormOriginal.jrxml" p:reportDataKey="datasource" />
+		
+	<bean id="student-XlsReport" class="org.springframework.web.servlet.view.jasperreports.JasperReportsXlsView"
+		p:url="classpath:StudentReport.jrxml" p:reportDataKey="datasource" />
+	
+	<bean id="collection-XlsReport" class="org.springframework.web.servlet.view.jasperreports.JasperReportsXlsView"
+		p:url="classpath:CollectionReport.jrxml" p:reportDataKey="datasource" />
+	
+	<bean id="uniform-books-collection-XlsReport" class="org.springframework.web.servlet.view.jasperreports.JasperReportsXlsView"
+		p:url="classpath:Uniform-Books-CollectionReport.jrxml"
+		p:reportDataKey="datasource" />
+		
+	<bean id="characterCertificatefina" class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+		p:url="classpath:characterCertificatefina.jrxml" p:reportDataKey="datasource" />
+		
+	<bean id="gatePass" class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+		p:url="classpath:gatepass.jrxml" p:reportDataKey="datasource" />
+		
+	<bean id="concessionStudentList" class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+		p:url="classpath:concession-report.jrxml" p:reportDataKey="datasource" />
+		
+	<bean id="feePaidByChequePDF" class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+		p:url="classpath:feePaidByChequePDF.jrxml" p:reportDataKey="datasource" /> -->
+</beans>

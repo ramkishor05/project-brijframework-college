@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+<definition name="purchasebook" extends="baseLayout">
+		<put-attribute name="title" value="Purchased Book Details" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/book/purchasebook.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="bookmenu" extends="baseLayout">
+		<put-attribute name="title" value="Book menu" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/book/bookmenu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="sellbook" extends="baseLayout">
+		<put-attribute name="title" value="Sell Book" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/book/sellbook.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="viewsoldbook" extends="baseLayout">
+		<put-attribute name="title" value="Sold book details" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/book/viewsoldbook.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="bookstockdetails" extends="baseLayout">
+		<put-attribute name="title" value="Book Stock Details" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/book/bookstockdetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="paybookdues" extends="baseLayout">
+		<put-attribute name="title" value="Pay Book Dues" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/book/paybookdues.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="bookpurchase" extends="baseLayout">
+		<put-attribute name="title" value="Purchase Book" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/book/bookpurchase.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="bookpayment" extends="baseLayout">
+		<put-attribute name="title" value="Payment of Purchased Book" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/book/bookpayment.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="bookpurchasedetails" extends="baseLayout">
+		<put-attribute name="title" value="Payment of Purchased Book" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/book/bookpurchasedetails.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="studentboughtbook" extends="baseLayout">
+		<put-attribute name="title" value="Payment of Purchased Book" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/book/studentboughtbook.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="checkbooksold" extends="baseLayout">
+		<put-attribute name="title" value="View Books Sold" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/book/checkbooksold.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="classwisebookpurchased" extends="baseLayout">
+		<put-attribute name="title" value="View Books Sold" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/admin/students/sidebar.jsp" 
+			/> -->
+		<put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/book/classwisebookpurchased.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	</tiles-definitions>

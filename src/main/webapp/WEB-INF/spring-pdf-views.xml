@@ -1,0 +1,78 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="pdfnotice" class="org.brijframework.college.controller.admin.notice.NoticeInPdf">
+	</bean>
+	<bean id="pdffeeslip" class="org.brijframework.college.controller.admin.fee.Pdffeeslip">
+	</bean>
+	<bean id="pdffeedefaulterlist" class="org.brijframework.college.controller.admin.fee.Pdffeedefaulterlist">
+	</bean>
+	<bean id="pdffeepaidlist" class="org.brijframework.college.controller.admin.fee.Pdffeepaidlist">
+	</bean>
+	<bean id="pdfclassdefaulter" class="org.brijframework.college.controller.admin.fee.Pdfclassdefaulter">
+	</bean>
+	<bean id="pdfalldefaulters" class="org.brijframework.college.controller.admin.fee.PdfAlldefaulters">
+	</bean>
+	<bean id="studentreportcardpdf" class="org.brijframework.college.controller.examreport.StudentReportCardPDF">
+	</bean>
+	<bean id="pdfemployeereport"
+		class="org.brijframework.college.controller.admin.employee.PdfEmployeeAttendanceReport">
+	</bean>
+	<bean id="pdfdressreceipt" class="org.brijframework.college.controller.admin.uniform.UniformPdfSlip">
+	</bean>
+	<bean id="studentattendancereportaspdf" class="org.brijframework.college.controller.admin.student.StudentAttendanceReportAsPdf">
+	</bean>
+	<bean id="pdfbookreceipt" class="org.brijframework.college.controller.admin.book.PdfBookReceipt">
+	</bean>
+	
+	<bean id="pdfuniformduesreceipt" class="org.brijframework.college.controller.admin.uniform.UniformDuesReceipt">
+	</bean>
+	<bean id="pdfbookduesreceipt" class="org.brijframework.college.controller.admin.book.PdfBookDuesReceipt">
+	</bean>
+		 <bean id="uniformboughtslip" class="org.brijframework.college.controller.admin.uniform.BoughtUniformSlip">
+	</bean> 
+	<bean id="bookboughtslip" class="org.brijframework.college.controller.admin.book.BoughtBookSlip">
+	</bean>
+	<bean id="pdfmonthlyexamreport" class="org.brijframework.college.controller.examreport.PDFMonthlyExam">
+	</bean>
+	<bean id="pdfgatepass" class="org.brijframework.college.controller.admin.student.PDFGatePass">
+	</bean>
+		<bean id="pdfsalaryslip"
+		class="org.brijframework.college.controller.admin.employee.SalarySlipPDF">
+	</bean>
+	<bean id="pdfcommonreceipt"
+		class="org.brijframework.college.controller.admin.fee.PdfCommonRecipet">
+	</bean>
+		<bean id="pdfkennedyslip"
+		class="org.brijframework.college.controller.admin.fee.PdfJohnkennedyFeeSlip">
+	</bean>
+		<bean id="preschoolreceipt"
+		class="org.brijframework.college.controller.admin.fee.preschoolreceipt">
+	</bean>
+	<bean id="pdfadmissionforms"
+		class="org.brijframework.college.controller.admin.student.NewPDFAdmission">
+	</bean>
+	<bean id="pdfkanchanslip"
+		class="org.brijframework.college.controller.admin.fee.KanchanFeeSlip">
+	</bean>
+	<bean id="singlepdfkennedyslip"
+		class="org.brijframework.college.controller.admin.fee.PdfKennedySingleSlip">
+	</bean>
+	<bean id="OffLineAppForm" class="org.brijframework.college.controller.admin.student.OffLineAppForm">
+	</bean>
+	<bean id="pdftc" class="org.brijframework.college.controller.admin.student.TransferCertificate">
+	</bean>
+	<bean id="pdfclassreport" class="org.brijframework.college.controller.admin.student.ClassWisePdfReport">
+	</bean>
+	<bean id="pdfsectionreport" class="org.brijframework.college.controller.admin.student.SectionWisePdfReport">
+	</bean>
+	<bean id="ymbfeeslip" class="org.brijframework.college.controller.admin.fee.YMBFeeSlip">
+	</bean>
+	<bean id="baljyotifeeslip" class="org.brijframework.college.controller.admin.fee.BalJyotiFeeSlip">
+	</bean>
+	<bean id="maharanaslip" class="org.brijframework.college.controller.admin.fee.MaharanaFeeSlip">
+	</bean>
+	
+</beans>

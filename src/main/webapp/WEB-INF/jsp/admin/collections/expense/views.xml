@@ -1,0 +1,44 @@
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="expensemenu" extends="baseLayout">
+		<put-attribute name="title" value="View Expenses" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/expense/expensemenu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="overallexpenses" extends="baseLayout">
+		<put-attribute name="title" value="View Overall Expenses" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/expense/overallexpenses.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="todaysexpenses" extends="baseLayout">
+		<put-attribute name="title" value="View Today's Expenses" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/expense/todaysexpenses.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="datewiseexpenses" extends="baseLayout">
+		<put-attribute name="title" value="View Date Wise Expenses" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/expense/datewiseexpenses.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="yearlyexpenses" extends="baseLayout">
+		<put-attribute name="title" value="Add Collection" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/expense/yearlyexpenses.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+	<definition name="addexpense" extends="baseLayout">
+		<put-attribute name="title" value="Add Expenses" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin/collections/expense/add-expense.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/admin/footer.jsp" />
+	</definition>
+
+</tiles-definitions>
+	
