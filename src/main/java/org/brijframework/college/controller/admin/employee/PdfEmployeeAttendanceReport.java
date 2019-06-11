@@ -1,4 +1,4 @@
-/*package org.brijframework.college.controller.admin.employee;
+package org.brijframework.college.controller.admin.employee;
 
 import java.awt.Color;
 import java.text.DecimalFormat;
@@ -73,18 +73,18 @@ public class PdfEmployeeAttendanceReport extends AbstractPdfView {
 		table.setWidthPercentage(100.0f);
 
 		
-		 * for (EmployeesDTO employeesDTO : employeesDTOs) {
-		 * 
-		 * for (EmployeeAttendanceDTO employeeAttendanceDTO : employeesDTO
-		 * .getEmployeeAttendanceDTOs()) { cell.setPhrase(new Phrase("Date",
-		 * font)); table.addCell(cell);
-		 * 
-		 * }
-		 * 
-		 * }
+		  for (EmployeesDTO employeesDTO : employeesDTOs) {
+		  
+		  for (EmployeeAttendanceDTO employeeAttendanceDTO : employeesDTO
+		  .getEmployeeAttendanceDTOs()) { cell.setPhrase(new Phrase("Date",
+		  font)); table.addCell(cell);
+		  
+		  }
+		  
+		  }
 		 
 		
-		 * cell.setPhrase(new Phrase("Total", font)); table.addCell(cell);
+		  cell.setPhrase(new Phrase("Total", font)); table.addCell(cell);
 		 
 		cell.setPhrase(new Phrase("Attendance Status", font));
 		table.addCell(cell);
@@ -117,4 +117,4 @@ public class PdfEmployeeAttendanceReport extends AbstractPdfView {
 
 	}
 
-}*/
+}

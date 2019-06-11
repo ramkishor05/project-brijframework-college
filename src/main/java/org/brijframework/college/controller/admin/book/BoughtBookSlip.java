@@ -1,32 +1,32 @@
-/*package org.brijframework.college.controller.admin.book;
+package org.brijframework.college.controller.admin.book;
 
-import java.sql.Date;
+import java.awt.Color;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.poi.ss.usermodel.Color;
 import org.brijframework.college.models.dto.BookPurchaseDTO;
 import org.brijframework.college.models.dto.BookSupplierDTO;
-import org.dom4j.Document;
 import org.springframework.web.servlet.view.document.AbstractPdfView;
 
-import com.itextpdf.text.Chunk;
-import com.itextpdf.text.Element;
-import com.itextpdf.text.Font;
-import com.itextpdf.text.FontFactory;
-import com.itextpdf.text.Image;
-import com.itextpdf.text.Paragraph;
-import com.itextpdf.text.Rectangle;
-import com.itextpdf.text.pdf.PdfPCell;
-import com.itextpdf.text.pdf.PdfPTable;
-import com.itextpdf.text.pdf.PdfWriter;
+import com.lowagie.text.Chunk;
+import com.lowagie.text.Element;
+import com.lowagie.text.Font;
+import com.lowagie.text.FontFactory;
+import com.lowagie.text.Image;
+import com.lowagie.text.Paragraph;
+import com.lowagie.text.Rectangle;
+import com.lowagie.text.pdf.PdfPCell;
+import com.lowagie.text.pdf.PdfPTable;
+import com.lowagie.text.pdf.PdfWriter;
+
+
 
 public class BoughtBookSlip extends AbstractPdfView {
 
 	@Override
-	protected void buildPdfDocument(Map<String, Object> model, Document document, PdfWriter writer,
+	protected void buildPdfDocument(Map<String, Object> model, com.lowagie.text.Document document, PdfWriter writer,
 			HttpServletRequest request, HttpServletResponse response) throws Exception {
 		int i = 0;
 		String word = "";
@@ -273,7 +273,7 @@ public class BoughtBookSlip extends AbstractPdfView {
 		paragraph = new Paragraph(new Chunk("Cashier", FontFactory.getFont(FontFactory.TIMES, 10)));
 		paragraph.setAlignment(Element.ALIGN_RIGHT);
 		document.add(paragraph);
-		paragraph = new Paragraph(new Chunk("*******Computer Generated Fee Receipt******\n" + new Date(),
+		paragraph = new Paragraph(new Chunk("*******Computer Generated Fee Receipt******\n" + new java.util.Date(),
 				FontFactory.getFont(FontFactory.TIMES, 8)));
 
 		paragraph.setAlignment(Element.ALIGN_CENTER);
@@ -282,4 +282,5 @@ public class BoughtBookSlip extends AbstractPdfView {
 		document.close();
 
 	}
-}*/
+
+}

@@ -1,4 +1,4 @@
-/*package org.brijframework.college.controller.admin.book;
+package org.brijframework.college.controller.admin.book;
 
 import java.awt.Color;
 import java.util.Date;
@@ -288,4 +288,3 @@ for(int j=1;j<=5;j++)
 	}
 
 }
-*/

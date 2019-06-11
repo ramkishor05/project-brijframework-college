@@ -14,7 +14,13 @@ public class SpringMVCInitializer implements WebApplicationInitializer{
     public void onStartup(ServletContext container) throws ServletException {
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
         ctx.register(SpringConfiguration.class);
-        ctx.setConfigLocations(new String[] {"/WEB-INF/spring-servlet.xml","/WEB-INF/spring-beans.xml","/WEB-INF/spring-security.xml"});
+        ctx.setConfigLocations(new String[] {
+        		"classpath*:spring-beans.xml",
+        		"classpath*:spring-excel-views.xml",
+        		"classpath*:spring-pdf-views.xml",
+        		"classpath*:spring-security.xml",
+        		"classpath*:spring-servlet.xml"
+        });
         ServletRegistration.Dynamic servlet = container.addServlet("dispatcher", new DispatcherServlet(ctx));
         servlet.setLoadOnStartup(1);
         servlet.addMapping("/");

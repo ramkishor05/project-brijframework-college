@@ -10,9 +10,10 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "org")
+@ComponentScan(basePackages = "org.brijframework.college")
 public class SpringConfiguration {
 	
+
 	@Bean
 	public ViewResolver viewResolver() {
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
@@ -21,4 +22,6 @@ public class SpringConfiguration {
 		viewResolver.setSuffix(".jsp");
 		return viewResolver;
 	}
+	
+	
 }

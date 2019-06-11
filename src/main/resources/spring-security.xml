@@ -13,7 +13,7 @@
 	<http pattern="/img/**" security="none" />
 	<http pattern="/js/**" security="none" />
 	<http pattern="/lib/**" security="none" />
-	<http use-expressions="false">
+	<http use-expressions="true">
 		<intercept-url pattern="/**" access="isAuthenticated()" />
 		<form-login login-page="/login" default-target-url="/home"
 			always-use-default-target="true" authentication-failure-url="/loginfailed" />
