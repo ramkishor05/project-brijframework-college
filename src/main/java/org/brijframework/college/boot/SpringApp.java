@@ -1,5 +1,6 @@
 package org.brijframework.college.boot;
 
+import org.apache.commons.dbcp.BasicDataSource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
@@ -22,5 +23,6 @@ public class SpringApp {
 
 	public static void main(String[] args) {
         SpringApplication.run(SpringApp.class, args);
+        BasicDataSource dataSource=new BasicDataSource();
     }
 }
