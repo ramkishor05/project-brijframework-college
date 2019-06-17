@@ -1,7 +1,5 @@
 package org.brijframework.college.commom.convertor;
 
-import java.text.SimpleDateFormat;
-
 import org.brijframework.college.model.StudentFine;
 import org.brijframework.college.model.Students;
 import org.brijframework.college.models.dto.StudentFineDTO;
@@ -14,7 +12,6 @@ public class StudentFineEntityToDTO {
 	}
 
 	public StudentFineDTO convertEntityToDTO(StudentFine studentFine) {
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 		StudentFineDTO studentFineDTO = new StudentFineDTO();
 		if (studentFine == null) {
 		} else {

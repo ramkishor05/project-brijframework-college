@@ -8,7 +8,6 @@ import org.brijframework.college.common.constant.CommonConstants;
 import org.brijframework.college.models.dto.EmployeesDTO;
 import org.brijframework.college.models.dto.FeecategoryAmountDTO;
 import org.brijframework.college.service.EmployeeService;
-import org.brijframework.college.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -20,8 +19,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 @RequestMapping({ "/admin/**", "/employee/**" ,"/branch/**"})
 public class MangeEmployeeController {
-	@Autowired
-	private UserService userService;
 	@Autowired
 	private EmployeeService employeeService;
 

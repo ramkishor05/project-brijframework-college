@@ -32,7 +32,6 @@ public class PdfEmployeeAttendanceReport extends AbstractPdfView {
 
 		document.setMargins(10, 10, 10, 10);
 		Date date = new Date();
-		int year = 0;
 		int late = 0;
 		String name = "";
 		SimpleDateFormat df = new SimpleDateFormat("dd-MM-YYYY");
@@ -44,18 +43,6 @@ public class PdfEmployeeAttendanceReport extends AbstractPdfView {
 		@SuppressWarnings("unchecked")
 		List<EmployeesDTO> employeesDTOs = (List<EmployeesDTO>) model
 				.get("list");
-		int i = 0;
-		for (EmployeesDTO employeesDTO : employeesDTOs) {
-
-			name = employeesDTO.getFullName();
-			from = employeesDTO.getFrom();
-			to = employeesDTO.getTo();
-			for (EmployeeAttendanceDTO employeeAttendanceDTO : employeesDTO
-					.getEmployeeAttendanceDTOs()) {
-				i++;
-			}
-			break;
-		}
 		PdfPTable table = new PdfPTable(2);
 		table.setSpacingBefore(30);
 		Font font = FontFactory.getFont(FontFactory.TIMES_ROMAN);

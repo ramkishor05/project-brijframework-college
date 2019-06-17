@@ -1,7 +1,6 @@
 package org.brijframework.college.controller.admin.employee;
 
 import java.text.ParseException;
-import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -11,7 +10,6 @@ import org.brijframework.college.service.EmployeeAttendanceService;
 import org.brijframework.college.service.EmployeeService;
 import org.brijframework.college.service.MonthService;
 import org.brijframework.college.service.SessionService;
-import org.brijframework.college.service.StudentClassesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -27,8 +25,6 @@ public class EmployeeAttendanceController {
 	EmployeeAttendanceService employeeAttendanceService;
 	@Autowired
 	MonthService monthService;
-	@Autowired
-	private StudentClassesService studentClassesService;
 	@Autowired
 	private EmployeeService employeeService;
 	@Autowired
@@ -73,8 +69,6 @@ public class EmployeeAttendanceController {
 			@RequestParam(required = false, defaultValue = "14") int monthId,
 			@RequestParam(required = false, defaultValue = "0") int year,
 			Model model) throws Exception {
-		Map<String, Object> map = employeeAttendanceService
-				.getAttendaceDataForEmp(id, monthId, year);
 		model.addAttribute("EMPLOYEESDTO",
 				employeeService.findEmployeeDetails(id));
 		model.addAttribute("MAP", employeeAttendanceService

@@ -70,7 +70,6 @@ public class EmployeeDocumentController {
 			
 		if (documentDTO.getDocumentFile().getSize() > 0) {
 			MultipartFile files = documentDTO.getDocumentFile();
-			String type = files.getContentType().split("/")[0];
 			String name=documentDTO.getDocumentName()+"("+employeeDocumentDTO.getEmployeeId()+")";
 			/*try{
 			InputStream inputStream = null;

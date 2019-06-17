@@ -15,7 +15,6 @@ public class SpringMVCInitializer implements WebApplicationInitializer{
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
         ctx.register(SpringConfiguration.class);
         ctx.setConfigLocations(new String[] {
-        		"classpath*:spring-beans.xml",
         		"classpath*:spring-excel-views.xml",
         		"classpath*:spring-pdf-views.xml",
         		"classpath*:spring-security.xml",
